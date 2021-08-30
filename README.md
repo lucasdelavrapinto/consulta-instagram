@@ -8,4 +8,8 @@
 
 # Como usar? 
 Sempre que achar um @ na web, mas selecionar e clicar com o direito do mouse.
-Em seguida a opção "Acessar o perfil de: @" estará disponível, basta clica-lo.  
+Em seguida a opção "Acessar o perfil de: @" estará disponível, basta clica-lo.
+
+# Exemplo
+![exemplo](https://i.ibb.co/C6bwhC2/Screenshot-20210830-140439.png)
+
