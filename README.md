@@ -7,7 +7,7 @@
  Pronto, a extensão já deve funcionar.
 
 # Como usar? 
-Sempre que achar um @ na web, mas selecionar e clicar com o direito do mouse.
+Sempre que achar um @ na web, basta selecionar e clicar com o direito do mouse.
 Em seguida a opção "Acessar o perfil de: @" estará disponível, basta clica-lo.
 
 # Exemplo
