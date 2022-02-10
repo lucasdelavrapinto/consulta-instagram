@@ -1,0 +1,29 @@
+// []  Fazer copiar para o clipboard um texto
+
+function function1() {
+  var ul = document.getElementsByClassName("conversations-quick-replies__container");
+  var li = document.createElement("li");
+  
+
+    let btn = document.createElement("li");
+    btn.innerHTML = "<li class='conversations-quick-replies__reply'><button id='ember375' class='conversations-quick-replies__reply-button artdeco-button artdeco-button--2 artdeco-button--secondary ember-view'><span class='artdeco-button__text'><span class='a11y-text'>Responder à conversa com TEXTO PADRÃO</span><span class='conversations-quick-replies__reply-content' aria-hidden='true'>HEY YOU!!!</span></span></button></li>";
+    
+    li.appendChild(btn);
+
+    ul[0].appendChild(li);
+
+}
+
+'<li class="conversations-quick-replies__reply"><button id="ember375" class="conversations-quick-replies__reply-button artdeco-button artdeco-button--2 artdeco-button--secondary ember-view"><span class="artdeco-button__text">            <span class="a11y-text">Responder à conversa com TEXTO PADRÃO</span><span class="conversations-quick-replies__reply-content" aria-hidden="true">HEY YOU!!!</span></span></button></li>'
+
+document.body.appendChild(btn);
+var node = document.createTextNode("<li class='conversations-quick-replies__reply'><button id='ember375' class='conversations-quick-replies__reply-button artdeco-button artdeco-button--2 artdeco-button--secondary ember-view'><span class='artdeco-button__text'><span class='a11y-text'>Responder à conversa com TEXTO PADRÃO</span><span class='conversations-quick-replies__reply-content' aria-hidden='true'>HEY YOU!!!</span></span></button></li>");
+
+var ul = document.getElementsByClassName("conversations-quick-replies__container");
+
+
+var li = document.createElement("li");
+li.appendChild(document.createTextNode("Four"));
+
+ul[0].appendChild(li);
+alert(li.id);

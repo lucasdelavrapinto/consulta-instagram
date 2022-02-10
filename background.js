@@ -1,8 +1,17 @@
-chrome.contextMenus.create({
-    id: "some-command",
-    title: "Acessar perfil de: %s",
-    contexts: ["selection"],
-});
+chrome.contextMenus.create(
+    {
+        id: "some-command",
+        title: "Acessar perfil de: %s",
+        contexts: ["selection"],
+    },
+);
+// chrome.contextMenus.create(
+//     {
+//         id: "paste-command",
+//         title: "Agradecer essa pessoa!",
+//         contexts: ["page"],
+//     }
+// );
 
 function openInstagram(instagram){
     chrome.tabs.create({
@@ -18,4 +27,10 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
         openInstagram(insta);
 
     }
+    // if (info.menuItemId == "paste-command") {
+
+    //     navigator.clipboard.writeText("paste-command");
+    //     console.log('paste-command');
+
+    // }
 });
